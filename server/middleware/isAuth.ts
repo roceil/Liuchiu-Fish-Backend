@@ -1,5 +1,4 @@
 import { H3Error, readBody, sendError } from 'h3'
-import { successHandler } from '~~/utils/successHandler'
 import { errorHandler } from '~~/utils/errorHandler'
 
 export default defineEventHandler(async (event) => {
